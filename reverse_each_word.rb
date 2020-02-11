@@ -1,5 +1,9 @@
 
 # Note to self: don't forget about the #split and #join methods
+#
+# 'each' returns the original array,
+# 'collect' returns the array that has been altered by the block
+# both return an enumerator if no block is given
 
 def reverse_each_word(sentence)
   array_of_words = sentence.split(" ")
